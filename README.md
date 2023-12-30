@@ -45,7 +45,7 @@
 
 ### 서비스 배경
 * 최근 주식 자동매매에 대해 많은 사람들이 관심을 가지고 있습니다. 또한 증권가에서도 알고리즘 매매에 대한 관심도가 높아져 다양하게 활용되고 있습니다.
-  
+
 * 자동 매매의 진입 장벽이 높기 때문에 **자동 매매 전략에 관심은 있지만 전략 정보가 부족한 사람**, **자신만의 전략이 있지만 프로그래밍 능력이 부족한 사람**, 자동매매 전략을 학습하고 있지만, **실제 데이터를 적용하기 힘든 사람**들에게 블록 코딩을 통해 쉽게 자신의 주식 매매 전략을 만들고, 테스트할 수 있는 플랫폼 Block Stock을 기획하게 되었습니다.
 
 <br>
@@ -53,12 +53,23 @@
 
 # 🔎 프로젝트 설계
 ### 시스템 구성도
-### ERD
+
 <div align="center">
   <br />
-  <img src="img/blockstock_erd.png" width="80%"/>
+  <img src="img/system architecture.png" width="100%"/>
   <br />
 </div>
+
+<br>
+
+### ERD
+
+<div align="center">
+  <br />
+  <img src="img/blockstock_erd.png" width="100%"/>
+  <br />
+</div>
+
 <br>
 <br>
 
@@ -117,8 +128,9 @@
 ### 외부 API
 * 한국투자증권 API
 * 대신증권 API
-  
-  
+
+
+
 <br>
 <br>
 
@@ -286,4 +298,3 @@
 * [API 명세서](https://verbose-dedication-777.notion.site/API-140111ba33394f2899ad8d8f879e30e7?pvs=4)
 * [ERD](https://www.erdcloud.com/d/hCkMg2HYMB6q4vmsC)
 * [회의록](https://verbose-dedication-777.notion.site/1fbdd03ebd234b3280073bc0bb5bf211?pvs=4)
-  
